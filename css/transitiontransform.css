@@ -1,0 +1,74 @@
+body{
+	background-color: black;
+
+	font-family: "Arial", sans-serif;
+}
+
+h1{
+	color: white;
+	clear: both;
+}
+
+.box{
+	height: 150px;
+	width: 150px;
+
+	border: 2px;
+	border-color: gray;
+	border-style: solid;
+	border-radius: 4px;
+	
+	background-color: white;
+	margin-right: 10px;
+	float: left;
+
+	position: relative;
+	top: 0;
+}
+
+.b1:hover{
+	top: 80px;
+	background-color: red;
+	/*	
+		LINEAR - linearmente faz a transiçao
+		EASE - diminuição gradual de transiçao
+		EASE-IN - aumento gradual de transiçao
+		EASE-IN-OUT- aumento e depois redução gradual de transição
+		CUBIC-BEZIER(x1,y1,x2,y2) -velocidade customizada
+	*/
+	/*transition: all 2s ease-in-out*/
+	transition: top 2s ease-in, background-color 2s ease-in;
+}
+
+.b2:hover{
+	background-color: purple;
+	transition: background-color 2s linear;
+}
+
+.b3:hover{
+	/*transform: translateX(10px)*/
+	/*transform: translateY(10px)*/
+	/*transform faz alteraçoes visuais nos elementos*/
+	transform: translate(-10px,10px);
+}
+
+.b4:hover{
+	transform: rotate(90deg);
+	/*com transition eh possivel uma temporização de transform*/
+	transition: transform 2s linear;
+}
+
+.b5:hover{
+	/*0.8 = 80%  1.2 = 120%*/
+	transform: scale(0.8);
+	transition: transform 2s linear;
+}
+
+.b6:hover{
+	/*distorce o elemento -20degree*/
+	/*transform: skewX(-20deg)*/
+	/*transform: skewY(-20deg)*/
+	transform: skewX(-20deg) rotate(90deg);
+	transition: transform 2s linear;
+}
+

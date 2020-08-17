@@ -1,0 +1,31 @@
+body{
+	background-color: black;
+}
+
+h1{
+	color: white;
+	font-family: "Arial", sans-serif;
+
+	text-align: center;
+}
+
+#box{
+	width: 200px;
+	height: 200px;
+	
+	background-color: white;
+	
+	margin: 0 auto;
+
+	border: 10px;
+	border-color: gray;
+	border-style: solid;
+}
+
+#box img{
+	/*width e height por serem valores que não sao herdados
+	  na Tag filha precisam ser alterados manualmente.
+	*/
+	width: inherit; /*Herda valores width da Tag pai*/
+	height: inherit; /*Herda valores height da Tag pai*/
+}

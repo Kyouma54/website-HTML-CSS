@@ -1,0 +1,27 @@
+body{
+	font-family: "Arial", sans-serif;
+	font-weight: bold;
+	font-size: 20px;
+	
+	background-color: gray;
+}
+
+/*todos p depois de h2*/
+h2 ~ p{
+	font-style: italic;
+	border: 2px;
+	border-style: solid;
+}
+
+/*primeiro p depois de h2*/
+h2 + p{
+	border-color: white;
+}
+
+/*h2 dentro de article*/
+article > h2{
+	color: white;
+}
+
+
+

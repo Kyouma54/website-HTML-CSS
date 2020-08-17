@@ -1,0 +1,37 @@
+body{
+
+	background-color: black; /*Cor do background*/
+	background-image: url(); /*Imagem no background*/
+
+	font-family: "Arial", sans-serif; /*sans-serif(Arial, Helvetica) serif(Times New Roman)*/
+	font-style: italic; /*Estilo da fonte  normal, italic, oblique*/
+	font-weight: bold; /*Espessura da fonte normal, lighter e bold, e numeric(100 a 900)*/
+	
+}
+
+h1{
+	color: white; /*Cor do texto*/
+}
+
+p{	
+	color: white; /*Cor do texto*/
+	background-color: gray;
+	width: 250px; /*tamanho geral ou tamanho do texto*/
+
+	margin: 100px; /*Gera uma margem *Espaço em branco* de 100px em cada lado top left bottom right*/
+	padding: 100px; /*Espaço background do texto, Espaço interno do texto*/
+	border-color: white; /*Borda ao redor do padding*/
+	border-style: dashed; /*Estilo de borda*/
+	border-width: 3px; /*Espessura de borda*/
+	/*Os valores de margin, padding e border são somados 100px+100px+3px 203px no total em cada um dos lados*/
+
+	text-align: left; /*Alinhamento de Texto*/
+	line-height: 15px; /* tamanho da altura de cada linha */
+	letter-spacing: 0px; /* tamanho do espaço entre cada letra */
+	word-spacing: 0px; /* tamanho do espaço entre cada palavra */
+	text-indent: 15px; /* tamanho da margem da primeira linha do texto */
+	text-transform: capitalize; /*altera todos os caracteres captalize, uppercase, lowercase*/
+	text-decoration: underline; /*gera decoração em todo texto none, underline, overline, line-through, blink*/
+
+	
+}

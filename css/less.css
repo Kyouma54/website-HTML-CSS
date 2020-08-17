@@ -1,0 +1,10 @@
+@cores: black;
+
+.container{
+	background-color: @cores;
+
+	h1{
+		color: white;
+	}
+}
+

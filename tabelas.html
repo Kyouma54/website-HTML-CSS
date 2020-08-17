@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8">
+		<title>Tabelas</title>
+		<link rel="stylesheet" href="css/tabelas.css">
+	</head>
+	<body>
+		<h1>Tabelas</h1>
+		<table>
+			<caption>Tabela 1</caption>
+			<tr>
+				<th>Coluna 0</th>
+				<th>Coluna 1</th>
+				<th>Coluna 2</th>
+				<th>Coluna 3</th>
+			</tr>
+			<tr>
+				<td>00</td>
+				<!-- td ocupara espaço de 2 colunas -->
+				<td colspan="2">01</td>
+				<td>03</td>
+			</tr>
+			<tr>
+				<!-- td ira ocupar espaço de 2 linhas -->
+				<td rowspan="2">10</td>
+				<td>11</td>
+				<td>12</td>
+				<td rowspan="2">13</td>
+			</tr>
+			<tr>
+				<td>21</td>
+				<td>22</td>
+			</tr>
+			<tr>
+				<td>30</td>
+				<td colspan="2">31</td>
+				<td>33</td>
+			</tr>
+		</table>
+
+		<table>
+			<!-- Colgroup ira afetar todas as colunas -->
+			<colgroup>
+				<col width="10%">
+				<col width="15%">
+				<col width="20%">
+				<col width="25%">
+			</colgroup>
+			<!-- caption ira dar um titulo a tabela -->
+			<caption>Tabela 2</caption>
+			<!-- thead tbody tfoot sao tags para nomear partes da tabela assim
+				 como body e head, header e footer
+			-->
+			<thead>
+				<tr>
+					<!-- th sao as colunas -->
+					<th>Coluna 0</th>
+					<th>Coluna 1</th>
+					<th>Coluna 2</th>
+					<th>Coluna 3</th>
+				</tr>
+			</thead>
+			
+			<tbody>
+				<!-- cada tr eh uma nova linha -->
+				<tr>
+					<!-- td são linhas -->
+					<td>00</td>
+					<td>01</td>
+					<td>02</td>
+					<td>03</td>
+				</tr>
+				<tr>
+					<td>10</td>
+					<td>11</td>
+					<td>12</td>
+					<td>13</td>
+				</tr>
+				<tr>
+					<td>20</td>
+					<td>21</td>
+					<td>22</td>
+					<td>23</td>
+				</tr>
+				<tr>
+					<td>30</td>
+					<td>31</td>
+					<td>32</td>
+					<td>33</td>
+				</tr>
+			</tbody>
+	
+			<tfoot>
+				<td colspan="4">Resultado da Matriz:</td>
+			</tfoot>
+		</table>
+	</body>
+</html>

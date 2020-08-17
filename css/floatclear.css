@@ -1,0 +1,39 @@
+body{
+	background-color: black;
+	font-family: "Arial", sans-serif;
+}
+
+h1{
+	color: white;
+}
+
+img{
+	float: left;
+}
+
+div{
+	width: 120px;
+	height: 120px;
+	float: left;
+}
+
+.box1{
+	background: red;
+	
+}
+
+.box2{
+	background: orange;
+}
+
+.box3{
+	background: yellow;
+}
+
+.box4{
+	background: blue;
+}
+
+.box5{
+	background: purple;
+}

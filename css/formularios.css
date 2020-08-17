@@ -1,0 +1,44 @@
+body{
+	background-color: rgba(0,0,0,0.8)
+}
+
+input{
+	display: block;
+	border-radius: 3px;
+}
+
+input[type="radio"]{
+	display: inline;
+}
+
+label[for="button"]{
+	display: block;
+}
+
+input[type="button"]{
+	display: inline;
+}
+
+label[for="submit"]{
+	display: block;
+}
+
+label[for="textarea"]{
+	display: block;
+}
+
+label[for="select"]{
+	display: block;
+}
+
+select{
+	display: block;
+}
+
+label[for="select2"]{
+	display: block;
+}
+
+label[for="select3"]{
+	display: block;
+}

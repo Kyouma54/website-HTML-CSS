@@ -1,0 +1,29 @@
+body{
+	background-color: black;
+	font-family: "Arial", sans-serif;
+	color: white;
+}
+
+.box{
+	background-color: white;
+	width: 150px;
+	height: 150px;
+	
+	border: 2px;
+	border-color: gray;
+	border-style: solid;
+	border-radius: 10px;
+
+	margin: 10px 10px;
+
+	float: left;
+}
+
+.b1{
+	/*background: linear-gradient(to bottom, white, blue);*/
+	background: linear-gradient(45deg, white, blue);
+}
+
+.b2{
+	background: radial-gradient(white, blue);
+}

@@ -1,0 +1,88 @@
+body{
+	background-color: black;
+	color: white;
+}
+
+/*X, Y se posiciona na tela como coordenada*/
+#relative{
+	width: 250px;
+
+
+	margin: 10px auto;
+	padding: 10px;
+
+	border: 3px;
+	border-color: white;
+	border-style: solid;
+	
+	position: relative; /*100px a esquerda é adicionado de acordo com a posição original*/
+					
+	left: 300px;
+	bottom: 100px;
+
+}
+
+/*Posicionamento Padrão/De acordo com a pagina*/
+#static{
+	width: 250px;
+
+			
+	margin: 10px auto;
+	padding: 10px;
+
+	border: 3px;
+	border-color: white;
+	border-style: solid;
+
+}
+
+#pai-absolute{
+	width: 180px;
+	height: 180px;
+	
+
+	margin: 10px auto;
+	padding: 100px;
+	
+	background-color: gray;
+	position: relative;
+}
+
+/*Posicionamento de acordo com a tag pai(por padrao body)
+  caso contrário, por sua tag pai diferente de body que tenha 
+  position diferente de static(padrao)
+*/
+#absolute{
+	width: 250px;
+
+
+	margin: 0;
+	padding: 10px;
+
+	border: 3px;
+	border-color: white;
+	border-style: solid;
+	position: absolute;
+
+	top: 0;
+	right: 0;
+}
+
+/*
+Se posicionamente a frente da página, fixamente para todo o conteúdo
+*/
+#fixed{
+	width: 250px;
+
+
+	margin: 10px auto;
+	padding: 10px;
+
+	border: 3px;
+	border-color: white;
+	border-style: solid;
+	position: fixed;
+	top: 0;
+	left: 0;
+
+}
